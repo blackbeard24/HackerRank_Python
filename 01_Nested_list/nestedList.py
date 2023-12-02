@@ -9,6 +9,8 @@ if __name__ == '__main__':
         score = float(input())
         scoreList.append(score)
         listNameScore.append([name, score])
+
+        
     
     lowestScore = list(set(scoreList))
     lowestScore.sort()
